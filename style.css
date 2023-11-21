@@ -21,10 +21,10 @@
   background-repeat: repeat;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 900px;
 }
-.discover{
-  font-family: 'Mansalva', sans-serif;;
+.discover {
+  font-family: "Mansalva";
 }
 .logo {
   width: 200px;
@@ -36,7 +36,8 @@
   display: flex;
   justify-content: flex-end;
   gap: 3rem;
-
+  font-family: Jost;
+  font-size: 18px;
   margin-right: 4rem;
   list-style: none;
   color: white;
@@ -57,14 +58,29 @@
 }
 
 .hero-div .adventure {
-  font-size: 70px;
-  font-weight: 700;
   color: white;
+  font-family: "Palanquin Dark";
+  font-size: 100px;
+  font-weight: 700;
 }
 
 .hero-div p {
   width: 50%;
   color: white;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+}
+.h3{
+  font-family: "Mansalva";
+  color: #22cdff;
+  font-size: 32px;
+  
+}
+.ad{
+  font-family: "Palanquin Dark";
+  font-size: 52px
+  ;
 }
 .li {
   margin-bottom: 7rem;
@@ -72,7 +88,7 @@
 }
 .buttons {
   width: 150px;
-  height: 50px;
+  height: 35px;
   background-color: #efab29;
   border: none;
   color: white;
@@ -90,16 +106,28 @@
   pad: 1rem;
   border-radius: 5px;
   font-size: medium;
+  margin-top: 2rem;
 }
 
 .section2 {
   display: grid;
   justify-content: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   background-image: url(./images/Rectangle\ 7.png);
   /* background-repeat: repeat; */
   background-size: cover;
   width: 100%;
+}
+
+.section2 button {
+  width: 300px;
+  height: 40px;
+  background-color: #efab29;
+  border: none;
+  color: white;
+  pad: 1rem;
+  border-radius: 5px;
+  font-size: medium;
 }
 
 .sub-heading {
@@ -115,9 +143,10 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding-top: 2rem;
-  gap: 1rem;
+  /* gap: 1rem; */
   padding-right: 4rem;
-  padding-left: 4rem;
+  padding-left: 6rem;
+  justify-content: center;
 }
 
 .gen-ideas1 h2 {
@@ -125,7 +154,7 @@
 }
 
 .images {
-  width: 300px;
+  width: 320px;
 }
 
 .gen-ideas1 > div > p {
@@ -144,14 +173,9 @@ button {
   color: white;
   margin-bottom: 2rem;
 }
-.adventure{
-  font-family: 'Palanquin Dark', sans-serif;}
 
 .adventure img {
   padding-bottom: 4rem;
-}
-.h3{
-  
 }
 
 .image1 {
@@ -169,6 +193,11 @@ button {
   margin-right: 6rem;
   position: relative;
   right: 3rem;
+}
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Testimonials {
@@ -205,15 +234,16 @@ button {
   padding-left: 6rem;
 } */
 .arrows,
-/* p {
+.p {
   text-align: center;
-  width: 50%;
-} */
+  width: 60%;
+}
 
 .adriana-tourist {
   text-align: center;
   width: 40%;
   padding-left: 14rem;
+  padding-right: 10rem;
   padding-bottom: 6rem;
   color: #0e2911;
 }
@@ -263,53 +293,52 @@ button {
   flex-direction: column;
   margin-top: 4rem;
   margin-right: 4rem;
-} 
-footer{
+}
+footer {
   background-color: #0e2911;
   color: white;
   padding-left: 2rem;
   padding-right: 2rem;
-  height: 300px;
+
+  height: 400px;
 }
-footer h4{
+footer h4 {
   padding-block: 2rem;
   font-size: 20px;
 }
-hr{
+hr {
   margin-left: 5rem;
   margin-right: 5rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
-.foot{
+.foot {
   display: flex;
   justify-content: space-between;
-
-  
 }
-.foot-flex{
+.foot-flex {
   display: flex;
   gap: 5rem;
 }
-.about-ad{
+.about-ad {
   width: 20rem;
   margin-left: 3rem;
 }
-.about-ad p{
+.about-ad p {
   width: 20rem;
 }
-.social{
+.social {
   display: flex;
   justify-content: end;
   gap: 2rem;
   margin-top: 1rem;
- 
 }
-.social img{
+.social img {
   width: 8rem;
+  margin-right: 6rem;
 }
 
 input {
-  margin-top: 1rem;
+  margin-bottom: 2rem;
   border: none;
   border-radius: 2px;
   background-color: var(--white);
@@ -334,7 +363,7 @@ input {
   right: 11rem;
   bottom: 1.3rem;
   top: 0.5rem;
-  
+
   /* width: 120px;
   height: 10px; */
 }
