@@ -22,25 +22,35 @@
   background-size: cover;
   width: 100%;
   height: 900px;
+  
 }
+
+
 .discover {
   font-family: "Mansalva";
 }
 .logo {
   width: 200px;
-  margin-left: 3rem;
-  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-left: 4rem;
+  /* padding-top:1rem; */
 }
 
+
+/* nav{
+ margin-bottom: 3rem;
+} */
 .hero-section nav {
   display: flex;
   justify-content: flex-end;
-  gap: 3rem;
+  gap: 2rem;
   font-family: Jost;
   font-size: 18px;
-  margin-right: 4rem;
   list-style: none;
   color: white;
+  padding-bottom:4rem;
+  padding-right: 3rem;
+  
 }
 .hero-div {
   display: flex;
@@ -75,20 +85,21 @@
   font-family: "Mansalva";
   color: #22cdff;
   font-size: 32px;
+  padding-top: 1rem;
+  line-height: 3px;
+
   
 }
 .ad{
   font-family: "Palanquin Dark";
-  font-size: 52px
-  ;
+  font-size: 48px;
+  margin-bottom: 3rem;
+  
 }
-.li {
-  margin-bottom: 7rem;
-  font-size: 25px;
-}
+
 .buttons {
-  width: 150px;
-  height: 35px;
+  width: 100px;
+  height: 30px;
   background-color: #efab29;
   border: none;
   color: white;
@@ -135,15 +146,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-  gap: 1rem;
+  padding-top: 4rem;
+  margin-top: 2rem;
+  
+ 
 }
+
 
 .gen-ideas1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
   padding-top: 2rem;
-  /* gap: 1rem; */
+  gap: 1rem;
   padding-right: 4rem;
   padding-left: 6rem;
   justify-content: center;
@@ -151,6 +166,10 @@
 
 .gen-ideas1 h2 {
   padding-block: 1rem;
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 26px;
+  color: #0e2911;
 }
 
 .images {
@@ -160,6 +179,9 @@
 .gen-ideas1 > div > p {
   width: 300px;
   padding-bottom: 1rem;
+  font-family: Jost;
+  font-weight: 300;
+  color: hsla(0, 0%, 43%, 1);
 }
 
 span {
@@ -212,14 +234,27 @@ button {
 }
 .Testimonials > h3 {
   color: #22cdff;
+  font-family: "Mansalva";
+  font-size: 30px;
+  padding-top: 4rem;
 }
 .Testimonials > h2 {
   color: #0e2911;
+  font-family: "Palanquin Dark";
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  line-height: 10px;
 }
 
 .Testimonials > p {
   width: 50%;
   text-align: center;
+  
+}
+.arrow1 , .arrow2{
+  width: 30px;
+  height: 30px;
 }
 
 .arrows {
@@ -237,6 +272,9 @@ button {
 .p {
   text-align: center;
   width: 60%;
+  font-family: Jost;
+  font-weight: 300;
+  color: hsla(0, 0%, 43%, 1);
 }
 
 .adriana-tourist {
@@ -251,12 +289,18 @@ button {
 .Adriana {
   color: #0e2911;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 28px;
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  
 }
 .Tourist {
   color: #0e2911;
   font-weight: 200;
   font-size: 18px;
+  font-family: Jost;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* .footer {
@@ -304,7 +348,10 @@ footer {
 }
 footer h4 {
   padding-block: 2rem;
-  font-size: 20px;
+  font-size: 24px;
+  font-family: "Palanquin Dark";
+  font-weight: 700;
+  color: #FDFEFF;
 }
 hr {
   margin-left: 5rem;
@@ -318,13 +365,27 @@ hr {
 .foot-flex {
   display: flex;
   gap: 5rem;
+  font-family: Jost;
+  font-weight: 300;
 }
 .about-ad {
   width: 20rem;
   margin-left: 3rem;
 }
 .about-ad p {
-  width: 20rem;
+  width: 24rem;
+  font-family: Jost;
+  font-weight: 300;
+ 
+
+}
+menu h4{
+  font-family: "Palanquin Dark";
+}
+
+.subscribe h4{
+  font-family: "Palanquin Dark";
+  font-size: 18px;
 }
 .social {
   display: flex;
@@ -332,9 +393,15 @@ hr {
   gap: 2rem;
   margin-top: 1rem;
 }
+.social h3{
+  font-family: Jost;
+  font-size: 16px;
+}
 .social img {
-  width: 8rem;
+  width: 94px;
+  height: 14px;
   margin-right: 6rem;
+  margin-top: 0.5rem;
 }
 
 input {
